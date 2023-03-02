@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 
-const initialFormValues={todotext:"",isChecked:false}
+const initialFormValues={todotext:"",isChecked:true}
 
 function Header({addContact,contacts}){
     const [form,setForm]=useState(initialFormValues)
